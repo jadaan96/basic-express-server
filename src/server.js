@@ -27,6 +27,7 @@ function handleHome(req, res) {
   function nameHandler (req,res){
     // let name = req.quary.name
     // console.log(req.quary)
+    // 
     res.status(200).json({
     code: 200,
     message: ` name is  ${req.query.name} `
